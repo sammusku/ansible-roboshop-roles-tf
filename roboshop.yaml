@@ -1,6 +1,6 @@
 - name: "configure {{ component }} server"
   hosts: "{{ component }}"
-  serial: 4
+  
   become: yes
   roles:
   - "{{ component }}"
