@@ -1,0 +1,7 @@
+- name: print messages1
+  ansible.builtin.debug:
+   msg: " Hi,Im from msg 1 "
+
+- name: print messages2
+  ansible.builtin.debug:
+   msg: " Hi,Im from msg 2 "

@@ -1,0 +1,7 @@
+- name: setup variables dynamically 
+  ansible.builtin.set_fact:
+   os: "Debian"
+- name: print include
+  ansible.builtin.debug:
+   msg: " Hi,Im from include "
+
