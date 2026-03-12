@@ -9,3 +9,4 @@ MYSQL_HOST: mysql-{{ env }}.dev88s.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.dev88s.online
 SHIPPING_HOST: shipping-{{ env }}.dev88s.online
 PAYMENT_HOST: payment-{{ env }}.dev88s.online
+app_version: v3
